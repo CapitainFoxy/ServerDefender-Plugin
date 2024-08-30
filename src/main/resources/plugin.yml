@@ -1,0 +1,24 @@
+name: ServerDefender
+version: 1.0
+main: com.capitainfoxy.serverdefender.Main
+commands:
+  kick:
+    description: Kicks a player from the server.
+  ban:
+    description: Bans a player from the server.
+  banip:
+    description: Bans a player's IP from the server.
+  mute:
+    description: Mutes a player.
+  unmute:
+    description: Unmutes a player.
+  lockdown:
+    description: Locks down the server.
+  chatlockdown:
+    description: Locks down the chat.
+  sdlockdown:
+    description: Alias for lockdown command.
+  warn:
+    description: Warns a player.
+  automod:
+    description: Toggles the automoderation system.

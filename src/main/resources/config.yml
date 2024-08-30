@@ -1,0 +1,7 @@
+automod:
+  enabled: false
+chatlockdown: falsr
+lockdown: false
+banned-words:
+  - "fuck"
+  - "bitch"
