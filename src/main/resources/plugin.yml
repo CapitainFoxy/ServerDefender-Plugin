@@ -1,5 +1,5 @@
 name: ServerDefender
-version: 1.0
+author: CapitainFoxy
 main: com.capitainfoxy.serverdefender.Main
 commands:
   kick:
