@@ -3,22 +3,22 @@ author: CapitainFoxy
 main: com.capitainfoxy.serverdefender.Main
 commands:
   kick:
-    description: Kicks a player from the server.
+    description: Kick
   ban:
-    description: Bans a player from the server.
+    description: Bans 
   banip:
-    description: Bans a player's IP from the server.
+    description: Bans ip
   mute:
-    description: Mutes a player.
+    description: Mute
   unmute:
-    description: Unmutes a player.
+    description: Unmute
   lockdown:
-    description: Locks down the server.
+    description: Lockdown
   chatlockdown:
-    description: Locks down the chat.
+    description: Locks chat
   sdlockdown:
-    description: Alias for lockdown command.
+    description: nfnfn
   warn:
-    description: Warns a player.
+    description: Warn
   automod:
-    description: Toggles the automoderation system.
+    description: Automod on
