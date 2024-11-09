@@ -1,11 +1,15 @@
 package com.capitainfoxy.serverdefender;
 
+
+
+
 import org.bukkit.plugin.java.JavaPlugin;
 import com.capitainfoxy.serverdefender.commands.*;
 import com.capitainfoxy.serverdefender.listeners.PlayerListener;
 
-public class Main extends JavaPlugin {
 
+
+public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         saveDefaultConfig();
@@ -20,8 +24,8 @@ public class Main extends JavaPlugin {
         getCommand("warn").setExecutor(new WarnCommand());
         getCommand("automod").setExecutor(new AutoModCommand(this));
     }
-
     @Override
     public void onDisable() {
+        mcmdmd
     }
 }
