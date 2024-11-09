@@ -1,5 +1,7 @@
 package com.capitainfoxy.serverdefender.listeners;
 
+
+
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.event.EventHandler;
@@ -11,14 +13,15 @@ import com.capitainfoxy.serverdefender.commands.LockdownCommand;
 import com.capitainfoxy.serverdefender.commands.ChatLockdownCommand;
 import com.capitainfoxy.serverdefender.Main;
 
+
+
+
+
 public class PlayerListener implements Listener {
-
     private Main plugin;
-
     public PlayerListener(Main plugin) {
         this.plugin = plugin;
     }
-
     @EventHandler
     public void onPlayerChat(AsyncPlayerChatEvent event) {
         if (MuteCommand.isMuted(event.getPlayer().getUniqueId())) {
@@ -30,7 +33,6 @@ public class PlayerListener implements Listener {
             event.getPlayer().sendMessage(ChatColor.RED + "Chat is currently locked down.");
         }
     }
-
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
         if (plugin.getConfig().getBoolean("lockdown")) {
